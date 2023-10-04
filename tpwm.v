@@ -13,7 +13,7 @@ initial begin
 end
 
 initial begin
-  #20000 $finish;
+  #100000 $finish;
 end
 
 initial begin
