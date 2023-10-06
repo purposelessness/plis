@@ -6,7 +6,7 @@ wire out;
 reg sig;
 integer i = 0;
 
-pwm_register pwm(in, sig, out);
+pwm_signal pwm(in, sig, out);
 
 always begin
   #1 in = ~in;
