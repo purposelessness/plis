@@ -1,8 +1,8 @@
 module alu
     #(
-    parameter len_A = 4,
-    parameter len_B = 5,
-    parameter len_F = 5
+    parameter len_A = 3,
+    parameter len_B = 3,
+    parameter len_F = 3
     )
 
     (input [len_A - 1:0] a,
